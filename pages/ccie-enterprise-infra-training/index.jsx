@@ -25,7 +25,7 @@ const index = () => {
     return (
         <Layout>
             <Head>
-                <title>Cyberx MastersCCIE Enterprise infrastructure Training | NetworkersHome</title>
+                <title>CCIE Enterprise infrastructure Training | NetworkersHome</title>
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
