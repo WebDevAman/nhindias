@@ -14,7 +14,7 @@ const descList = [
     'CEH(Certified ethical hacker)',
     'Palo Alto Firewall',
     'Fortigate',
-    'CHFI',
+    'PEN Testing- LTP',
     'Bug Bounty Hunting',
     'Python Network Automation',
 
