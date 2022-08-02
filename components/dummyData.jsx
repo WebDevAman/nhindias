@@ -82,17 +82,16 @@ export const courses = [
                 0: 'Cisco CCNA',
             },
             {
-                1: 'AWS Associate , AWS Professional and AWS Security'
+                1: 'CEH, CHFI'
             },
 
             {
-                2: 'GCP And MS AZURE'
+                2: 'Bug Bounty hunting'
             },
 
             {
-                3: 'Cloud and Cloud Security Projects'
+                3: '3 Advanced security Projects'
             },
-
         ]
     },
     {
