@@ -62,13 +62,13 @@ const HomeSlider = () => {
                     loopFillGroupWithBlank={true}
                     navigation={true}
                     modules={[FreeMode, Navigation]}
-                    className="mySwiper hero"
+                    className="mySwiper hero max-w-[120rem]"
                 >
                     {HeroSliderImages.map((img, i) => (
                         <div
                             key={i}
                         >
-                            <SwiperSlide className='rounded-3xl mt-6 mb-16 max-h-[24rem] h-full flex items-center overflow-hidden'>
+                            <SwiperSlide className='max-w-[40rem] rounded-3xl mt-6 mb-16 max-h-[24rem] h-full flex items-center overflow-hidden'>
                                 <img className='hover:scale-105 transition-all max-w-full object-cover duration-500' src={img} alt='image' />
                             </SwiperSlide>
                         </div>
