@@ -35,9 +35,6 @@ const CourseFeatures = ({ noBG }) => {
         </div>
 
         <div
-          data-aos="fade-left"
-          data-aos-delay="800"
-          data-aos-duration="800"
           className='flex  flex-col space-y-4 md:space-y-8  max-w-[40rem] mx-auto w-full'>
           <Video1 />
         </div>

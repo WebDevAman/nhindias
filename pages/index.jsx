@@ -1,8 +1,6 @@
 import Head from 'next/head'
-import "aos/dist/aos.css";
 import React from 'react';
 import Layout from '../components/Layout';
-import Aos from 'aos';
 import Hero from '../components/Pages/Home/Hero';
 import Testimonials from '../components/Testimonials';
 import Placements from '../components/Testimonials/Placements';
@@ -14,10 +12,8 @@ import TeamExperts from '../components/Testimonials/TeamExperts';
 import Questions from '../components/Testimonials/Questions';
 import ArticlesAndCourses from '../components/Testimonials/ArticlesAndCourses';
 import { courses } from '../components/dummyData'
+
 export default function Home() {
-  React.useEffect(() => {
-    Aos.init()
-  }, [])
   return (
     <Layout>
       <Head>

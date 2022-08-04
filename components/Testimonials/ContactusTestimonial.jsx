@@ -25,9 +25,6 @@ const ContactusTestimonial = () => {
         {/* // whats the prob ? */}
 
         <div
-          data-aos="fade-left"
-          data-aos-delay="800"
-          data-aos-duration="800"
           className="flex flex-col max-w-[40rem] mx-auto w-full space-y-3 flex-1"
         >
 

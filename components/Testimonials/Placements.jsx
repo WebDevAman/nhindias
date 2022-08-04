@@ -6,9 +6,7 @@ import { motion } from 'framer-motion'
 const Placements = () => {
   return (
     <div className=" p-5 lg:px-10 grid grid-cols-1 lg:grid-cols-2 lg:pl-20 place-content-center place-items-center container  items-center">
-      <div data-aos="fade-right"
-        data-aos-delay="400"
-        data-aos-duration="800"
+      <div
         className="flex flex-col space-y-6 justify-center lg:justify-left text-center lg:text-left">
         <div className="flex flex-col  space-y-3">
           <h1 className='text-3xl md:text-4xl font-lato lg:text-5xl font-extrabold'>Unlimited Learning</h1>
@@ -31,11 +29,9 @@ const Placements = () => {
         </div>
       </div>
 
-      <div data-aos="fade-left"
-        data-aos-delay="800"
-        data-aos-duration="800"
+      <div
       >
-        <img src={'/assets/images/placement.png'} className='w-full h-full object-cover' />
+        <img alt='img' src={'/assets/images/placement.png'} className='w-full h-full object-cover' />
       </div>
 
     </div>
