@@ -1,6 +1,5 @@
-import { FaFacebookF, FaInstagram, FaPinterestP, FaTwitter } from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi'
-import { AiFillPhone } from 'react-icons/ai'
+import { FaLinkedinIn, FaYoutube } from 'react-icons/fa'
+
 export const navData = [
     {
         label: "Home",
@@ -45,9 +44,8 @@ export const slideData = [
 ]
 
 export const socialData = [
-    { link: '/', icon: <FaFacebookF className='text-lg' /> },
-    { link: '/', icon: <FaTwitter className='text-lg' /> },
-    { link: '/', icon: <FaInstagram className='text-lg' /> },
+    { link: 'https://www.linkedin.com/company/networkers-home', icon: <FaLinkedinIn className='text-lg' /> },
+    { link: 'https://www.youtube.com/user/networkershome/videos', icon: <FaYoutube className='text-lg' /> },
 ]
 
 

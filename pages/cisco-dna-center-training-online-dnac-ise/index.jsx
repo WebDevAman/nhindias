@@ -8,6 +8,7 @@ import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import Link from 'next/link'
+import Syllabus from '../../components/common/Syllabus'
 
 
 const index = () => {
@@ -55,6 +56,10 @@ const index = () => {
                     </div>
                 </div>
             </div>
+            <div className="container py-12">
+                <Syllabus data={syllabusData} title={'Course Syllabus'} />
+
+            </div>
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
                     <div className="flex flex-col space-y-4">
@@ -84,4 +89,77 @@ const index = () => {
     )
 }
 
+
+const syllabusData = [
+    {
+        title: `Network Today`,
+        children: [
+            `Introduction`,
+            `Network Today`,
+            `Key Challenges`,
+            `Centralized Management`,
+            `Automation and Assurance`,
+        ]
+    },
+    {
+        title: `Cisco SD-Access Fundamentals`,
+        children: [
+            `Introduction`,
+            `What's SD-Access`,
+            `Fabric Roles and Terminology`,
+            `SD-Access Fabric Edge Nodes`,
+            `SD-Access Control Plane Nodes`,
+            `SD-Access Fabric Border`,
+            `SD-Access Fabric Wireless Lan Controller`,
+            `Cisco Identity Services Engine (ISE)`,
+            `Cisco DNAC`,
+            `Recap`,
+        ]
+    },
+    {
+        title: `Fabric Fundamentals`,
+        children: [
+            `Introduction`,
+            `What is Underlay`,
+            `What is Overlay`,
+            `What is Fabric`,
+            `SD-Access Under and Overlay`,
+            `SD-Access Under vs Overlay`,
+            `Recap`,
+        ]
+    },
+    {
+        title: `SD-Access Components`,
+        children: [
+            `Introduction`,
+            `SD-Access Key Components`,
+            `SD-Access LISP Components-P1`,
+            `SD-Access LISP Components-P2`,
+            `SD-Access VXLAN Components`,
+            `SD-Access TrustSec Components-P1`,
+            `SD-Access TrustSec Components-P2`,
+            `SD-Access TrustSec Components-P3`,
+            `Packet Flow in Fabric`,
+            `Recap`,
+        ]
+    },
+    {
+        title: `Virtual Network`,
+        children: [
+            `Introduction`,
+            `SD-Access New Terminology`,
+            `SD-Access Virtual Network`,
+            `SD-Access VRF, VN, Big Subnet`,
+            `SD-Access Scalable Group - SGT`,
+            `SD-Access Host Pool`,
+            `SD-Access AnyCast Gateway`,
+            `SD-Access Wireless Architecture`,
+            `SD-Access DNA Assurance Analytics-P1`,
+            `SD-Access DNA Assurance Analytics-P2`,
+            `SD-Access DNA Assurance Analytics-P3`,
+            `SD-Access DNA Assurance Analytics-P4`,
+            `Recap`,
+        ]
+    },
+]
 export default index

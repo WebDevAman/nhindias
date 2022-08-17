@@ -8,6 +8,7 @@ import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import Link from 'next/link'
+import Syllabus from '../../components/common/Syllabus'
 
 
 const index = () => {
@@ -54,6 +55,10 @@ const index = () => {
                     </div>
                 </div>
             </div>
+            <div className="container py-12">
+                <Syllabus data={syllabusData} title='Course Syllabus' />
+
+            </div>
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
                     <div className="flex flex-col space-y-4">
@@ -83,4 +88,107 @@ const index = () => {
     )
 }
 
+const syllabusData = [
+    {
+        title: 'Cisco SD-WAN Overlay Network',
+        children: [
+            `Examining Cisco SD-WAN Architecture`,
+            `Examining the Cisco SD-WAN Architecture – OMP`,
+        ]
+    },
+    {
+        title: `Cisco SD-WAN Deployment`,
+        children: [
+            `Examining Cisco SD-WAN Deployment Options`,
+            `Examining Cisco SD-WAN Deployment On-Premises`,
+            `Examining Cisco SD-WAN Deployment Using Enterprise CA`,
+            `Examining Cisco SD-WAN Controller Placement and Challenges`,
+            `Deploying the vEdge Devices`,
+            `Deploying the cEdge Devices`,
+            `Deploying Edge Devices – Working with NAT`,
+            `Deploying Edge Devices with Zero-Touch Provisioning – Part 1`,
+            `Deploying Edge Devices with Zero-Touch Provisioning – Part 2`,
+            `Device Configuration Templates – Part-1`,
+            `Device Configuration Templates – Part-2`,
+            `Redundancy, High Availability, and Scalability`,
+        ]
+    },
+    {
+        title: `Cisco SD-WAN Routing Options`,
+        children: [
+            `Cisco SD-WAN Routing Options - Overview`,
+            `Using Dynamic Routing – Part 1`,
+            `Using Dynamic Routing – Part 2`,
+            `Providing Site Redundancy & High Availability`,
+            `Configuring Transport-Side Connectivity`,
+            `Bidirectional Forwarding Detection (BFD)`,
+            `Implementing TLOC Extensions – Path Redundancy`
+        ]
+    },
+    {
+        title: `Cisco SD-WAN Policy Configuration`,
+        children: [
+            `Cisco SD-WAN Policy Overview`,
+            `Defining Advanced Control Policies – Part 1`,
+            `Defining Advanced Control Policies – Part 2`,
+            `Defining Advanced Data Policies – Traffic Engineering`,
+            `Defining Advanced Data Policies – Application Firewalls`,
+            `Defining Advanced Data Policies – Zone-Based Firewalls`,
+            `Implementing AAR (Application-Aware Routing)`,
+            `Implementing DIA and NAT`,
+            `Defining Advanced Data Policies – QOS`,
+        ]
+    },
+    {
+        title: `Cisco SD-WAN Migration and Interoperability`,
+        children: [
+            `Section Overview`,
+            `Cisco SD-WAN Hybrid Scenarios`,
+            `Performing SD-WAN Migration – Part 1`,
+            `Performing SD-WAN Migration – Part 2`,
+        ]
+    },
+    {
+        title: `Cisco SD-WAN Management and Operations`,
+        children: [
+            `Troubleshooting Control Connection`,
+            `Performing Day-2 Operations – Part 1`,
+            `Performing Day-2 Operations – Part 2`,
+            `Performing Upgrades`,
+            `Build Your Own SD-WAN-Viptela-LAB`,
+        ]
+    },
+    {
+        title: `LAB TIME`,
+        children: [
+            `vManage Dashboard Overview`,
+            `vManage-Monitor-1`,
+            `vManage-Monitor-2`,
+            `vManage Tools`,
+            `OMP Configuration -Edge Devices-LAB`,
+            `OMP Configuration -vSmart Controllers-LAB`,
+            `OMP Verification - CLI-LAB`,
+            `OMP Verification - CLI-LAB`,
+            `OMP Verification - vManage-LAB`,
+            `VPN Configuration Feature Template -LAB`,
+            `VPN Interface Configuration - LAB`,
+            `VRRP Configuration and Verifcation`,
+            `OSPF Configuration Feature Template-LAB`,
+            `BGP Configuration Feature Template-LAB`,
+            `Device Template Configuration -LAB`,
+            `vEdge - Zero-Touch Provisioning LAB`,
+            `vEdge on-boarding through Manual configuration -LAB`,
+            `Configure Device using Device Template`,
+            `Adding additional configuration to device through device template-LAB`,
+            `OSPF Verification CLI & vManage`,
+            `Removing perticular configuration to device through device template-LAB`,
+            `Control Policy: Multi-Topology using Route Filtering`,
+            `Control Policy: Multi-Topology using TLOC change`,
+            `Control Policy- Hub-Spoke LAB`,
+            `Control Policy - Firewall Insertion between Branches`,
+            `App-Aware-Route-Policy-LAB`,
+            `Control Policy - Datacenter Preferences`,
+        ]
+    },
+]
 export default index

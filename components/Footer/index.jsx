@@ -39,9 +39,11 @@ const index = () => {
                     </div>
                     <div className="flex space-x-4 items-center">
                         {socialData.map((data, i) => (
-                            <div key={i} className='p-4 hover:shadow-sm hover:scale-105 transition-all duration-300 cursor-pointer hover:text-themeColor bg-gray-100 rounded-full '>
-                                {data.icon}
-                            </div>
+                            <Link href={data.link} key={i}>
+                                <a target={'_blank'} rel='noreferrer' key={i} className='p-4 hover:shadow-sm hover:scale-105 transition-all duration-300 cursor-pointer hover:text-themeColor bg-gray-100 rounded-full '>
+                                    {data.icon}
+                                </a>
+                            </Link>
                         ))}
                     </div>
                 </div>
