@@ -22,6 +22,11 @@ const PlacementRecords = () => {
             data-aos-duration="800"
           >
             <Video1 />
+
+            #usernames
+            Syed Sadath#3073
+            amanpandey#9381
+
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
             <div
