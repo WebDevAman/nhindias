@@ -1,4 +1,3 @@
 
 https://networkershome.vercel.app/international-students
-https://networkershome.vercel.app/about-us
 https://networkershome.vercel.app/career-nh
