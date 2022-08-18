@@ -8,6 +8,7 @@ import { RiStarSFill } from 'react-icons/ri'
 import Head from 'next/head'
 import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import Link from 'next/link'
+import Syllabus from '../../components/common/Syllabus'
 
 
 const index = () => {
@@ -69,6 +70,9 @@ const index = () => {
                     </div>
                 </div>
             </div>
+            <div className="container py-12">
+                <Syllabus data={syllabusData} title='Course Syllabus' />
+            </div>
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
                     <div className="flex flex-col space-y-4">
@@ -98,4 +102,71 @@ const index = () => {
     )
 }
 
+const syllabusData = [
+    {
+        title: 'CCNP Enarsi syllabus',
+        children: [
+            `Implementing EIGRP`,
+            `Optimizing EIGRP`,
+            `Troubleshooting EIGRP`,
+            `Implementing OSPF`,
+            `Optimizing OSPF`,
+            `Troubleshooting OSPF`,
+            `Configuring Redistribution`,
+            `Troubleshooting Redistribution`,
+            `Implementing Path Control`,
+            `Implementing Internal Border Gateway Protocol(IBGP)`,
+            `Optimizing BGP`,
+            `Implementing MP - BGP`,
+            `Troubleshooting BGP`,
+            `Exploring MPLS`,
+            `Introducing MPLS L3 VPN Architecture`,
+            `Introducing MPLS L3 VPN Routing`,
+            `Configuring Virtual Routing and Forwarding(VRF) - Lite`,
+            `Implementing DMVPN`,
+            `Implementing DHCP`,
+            `Introducing IPv6 First Hop Security`,
+            `Securing Cisco Routers`,
+            `Troubleshooting Infrastructure Security and Services`,
+            `Troubleshooting with DNA Center Assurance`,
+        ]
+    },
+    {
+        title: 'CCNA Encor syllabus',
+        children: [
+            `Examining Cisco Enterprise Network Architecture`,
+            `Understanding Cisco Switching Paths`,
+            `Implementing Campus LAN Connectivity`,
+            `Building Redundant Switched Topology`,
+            `Implementing Layer 2 Port Aggregation`,
+            `Understanding EIGRP`,
+            `Implementing OSPF`,
+            `Optimizing OSPF`,
+            `Exploring EBGP`,
+            `Implementing Network Redundancy`,
+            `Implementing NAT`,
+            `Introducing Virtualization Protocols and Techniques`,
+            `Understanding Virtual Private Networks and Interfaces`,
+            `Understanding Wireless Principles`,
+            `Examining Wireless Deployment Options`,
+            `Understanding Wireless Roaming and Location Services`,
+            `Examining Wireless AP Operation`,
+            `Understanding Wireless Client Authentication`,
+            `Troubleshooting Wireless Client Connectivity`,
+            `Introducing Multicast Protocols`,
+            `Introducing QoS`,
+            `Implementing Network Services`,
+            `Using Network Analysis Tools`,
+            `Implementing Infrastructure Security`,
+            `Implementing Secure Access Control`,
+            `Understanding Enterprise Network Security Architecture`,
+            `Exploring Automation and Assurance Using Cisco DNA Center`,
+            `Examining the Cisco SD - Access Solution`,
+            `Understanding the Working Principles of the Cisco SD - WAN Solution`,
+            `Understanding the Basics of Python Programming`,
+            `Introducing Network Programmability Protocols`,
+            `Introducing APIs in Cisco DNA Center and vManage`,
+        ]
+    },
+]
 export default index
