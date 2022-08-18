@@ -16,6 +16,7 @@ const index = () => {
         <Layout>
             <Head>
                 <title>Cisco SDWAN Training Online| NetworkersHome</title>
+         <meta content="Viptela SDWAN Training Online and recorded videos, Cisco SDWAN  " name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-2 gap-10'>
                 <div className="w-full col-span-1  flex flex-col space-y-4">
