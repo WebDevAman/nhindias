@@ -24,7 +24,8 @@ const index = () => {
     return (
         <Layout>
             <Head>
-                <title>MultiCloud + Cloud Security experts | NetworkersHome</title>
+                <title>MultiCloud AWS,Azure and GCP certifications | NetworkersHome</title>
+         <meta content="Cloud computing AWS, Azure and GCP Training with placement" name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
