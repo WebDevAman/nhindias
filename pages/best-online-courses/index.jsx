@@ -9,6 +9,7 @@ const index = () => {
         <Layout>
             <Head>
                 <title>BEST IT CERTIFICATIONS LIST 2022 | NetworkersHome</title>
+         <meta content="Best CCIE Training institute in india " name="description" />
             </Head>
             <div className="flex my-12 container  flex-col space-y-12">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold uppercase text-center">BEST IT CERTIFICATIONS LIST 2022</h1>
