@@ -11,6 +11,7 @@ const Index = () => {
         <Layout>
             <Head>
                 <title>Contact Us | NetworkersHome</title>
+         <meta content="NETWORKERS HOME contact information " name="description" />
             </Head>
             <div className="flex container flex-col space-y-6 mt-6 lg:space-y-12">
                 <div className="flex flex-col space-y-6">
