@@ -12,7 +12,7 @@ const Syllabus = (props) => {
         setLeftData(leftArr)
         const rightArr = data.filter((item, i) => (i % 2 === 1))
         setRightData(rightArr)
-    }, [leftData, data])
+    }, [data])
     return (
         <div className="flex flex-col space-y-6">
             <h2 className="text-3xl text-themeDark font-bold">{title}</h2>
