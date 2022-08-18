@@ -7,6 +7,7 @@ import CourseFeatures from '../../components/Testimonials/CourseFeatures'
 import CustomerReviews from '../../components/Testimonials/CustomerReviews'
 import PlacementRecords from '../../components/Testimonials/PlacementRecords'
 import SectionOne from '../../components/Pages/career/SectionOne'
+import Videos from '../../components/Pages/career/Videos'
 
 const index = () => {
     return (
@@ -17,7 +18,10 @@ const index = () => {
                     <meta content="Best CCNP Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC " name="description" />
                 </Head>
 
-                <SectionOne />
+                <div className="flex flex-col space-y-12 pt-12">
+                    <SectionOne />
+                    <Videos />
+                </div>
             </Layout>
         </div>
     )

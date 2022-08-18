@@ -4,7 +4,7 @@ import { socialData } from '../../dummyData'
 
 const SectionOne = () => {
     return (
-        <div className='flex container py-4 pb-12 flex-col space-y-8'>
+        <div className='flex container flex-col space-y-8'>
             <h2 className="text-2xl lg:text-3xl font-bold text-center">
                 Cisco training and certification will help you to get jobs in <span className='text-themeColor'>MNC companies</span> in india
             </h2>
@@ -16,13 +16,13 @@ const SectionOne = () => {
                     <h2 className="text-2xl lg:text-3xl font-bold">
                         What is CCIE ?
                     </h2>
-                    <p className="text-[17px]">
+                    <p className="text-lg">
                         CCIE is a Certification examination by Cisco Systems . The Cisco Certified Internetwork Expert (CCIE) certification is accepted worldwide as the most prestigious networking certification in the industry. Network Engineers holding an active Cisco CCIE certification are recognized for their expert network engineering skills and mastery of Cisco products and solutions. The CCIE community has established a reputation of leading the networking industry in deep technical networking knowledge and are deployed into the most technically challenging network assignments.
                     </p>
-                    <p className="text-[17px]">
+                    <p className="text-lg">
                         The program continually updates and revises its testing tools and methodologies to ensure unparalleled program quality, relevance and value. Through a rigorous written exam and a performance based lab, the CCIE program sets the standard for inter-networking expertise.Cisco introduced the CCIE certification in 1993 to assist the industry in distinguishing the top echelon of internetworking experts worldwide. Today , CCIE certification holders represent less than 3% of all certified Cisco professionals and less than 1% of the networking professionals worldwide. Due to this rare passing rate ,there is huge demand for CCIE professionals in india and internationally .
                     </p>
-                    <p className="text-[17px]">
+                    <p className="text-lg">
                         NH as is famously known for CCIE Security training program. We were first institute in the World to focus exclusively on CCIE Security program . Our CCIE Results Section is a live testimony of our success in CCIE Training industry .Here is pictorial representation of our Success.
                     </p>
                 </div>
