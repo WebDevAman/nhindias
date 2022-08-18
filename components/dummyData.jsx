@@ -1,4 +1,6 @@
 import { FaLinkedinIn, FaYoutube } from 'react-icons/fa'
+import { GrMail } from 'react-icons/gr'
+import { BsWhatsapp, BsFillTelephoneFill } from 'react-icons/bs'
 
 export const navData = [
     {
@@ -46,6 +48,9 @@ export const slideData = [
 export const socialData = [
     { link: 'https://www.linkedin.com/company/networkers-home', icon: <FaLinkedinIn className='text-lg' /> },
     { link: 'https://www.youtube.com/user/networkershome/videos', icon: <FaYoutube className='text-lg' /> },
+    { link: 'https://api.whatsapp.com/send?phone=+919611027980', icon: <BsWhatsapp className='text-lg' /> },
+    { link: 'tel:+91-9811027980', icon: <BsFillTelephoneFill className='text-lg' /> },
+    { link: 'matilto:info@networkershome.com', icon: <GrMail className='text-lg' /> },
 ]
 
 
