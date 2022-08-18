@@ -15,7 +15,6 @@ const index = () => {
     const descList = [
         'CCNP Enterprise: Core Networking(ENCOR)',
         'CCNP Enterprise: Advanced Routing(ENARSI)',
-
     ]
     return (
         <Layout>
