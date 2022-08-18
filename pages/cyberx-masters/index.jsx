@@ -23,7 +23,8 @@ const index = () => {
     return (
         <Layout>
             <Head>
-                <title>Cyberx Masters | NetworkersHome</title>
+                <title> CEH| Pen Testing Course with placement  | NetworkersHome</title>
+         <meta content="Cyber security training with placement, 100 placement program " name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
