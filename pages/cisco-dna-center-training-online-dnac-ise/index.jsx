@@ -15,7 +15,8 @@ const index = () => {
     return (
         <Layout>
             <Head>
-                <title>Cisco SDWAN Training Online| NetworkersHome</title>
+                <title>Cisco DNA Cneter DNAC Training Online| NetworkersHome</title>
+         <meta content="Cisco DNA Center DNAC Training Online and classroom bootcamp " name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-2 gap-10'>
                 <div className="w-full col-span-1  flex flex-col space-y-4">

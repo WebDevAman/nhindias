@@ -27,6 +27,7 @@ const index = () => {
         <Layout>
             <Head>
                 <title>CCIE Enterprise infrastructure Training | NetworkersHome</title>
+        <meta content="CCIE Enterprise Training Online, CCNP Encor and CCNP Enarsi with SDWAN and DNAC " name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
