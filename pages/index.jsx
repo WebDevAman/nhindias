@@ -18,7 +18,7 @@ export default function Home() {
     <Layout>
       <Head>
         <title>NETWORKERS HOME - Best CCIE, Cyber security and Cloud Training</title>
-        <meta content="Best CCIE, Cloud and Cyber security training. Join World best training with 100% placement guarantee" name="description" />
+        <meta content="CCIE, Cloud and Cyber security training  with 100% placement guarantee, CCIE Training by experts" name="description" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='flex flex-col mt-12 space-y-12 lg:space-y-20'>
