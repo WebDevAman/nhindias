@@ -5,7 +5,7 @@ import { socialData } from '../dummyData'
 import { BsChevronDoubleRight } from 'react-icons/bs'
 
 const index = () => {
-
+    const links = ['/international-students', '/international-students', '/about-us', '/networkers-home-contact-us']
     return (
         <div
             style={{
@@ -25,9 +25,9 @@ const index = () => {
                         <div className='h-1 bg-themeColor w-[4rem]'></div>
                     </div>
                     <ul className='space-y-4'>
-                        {['Placement programs', 'Other courses', 'About us', 'Contact us'].map(label => (
+                        {['Placement programs', 'Other courses', 'About us', 'Contact us'].map((label, i) => (
                             <li key={label}>
-                                <Link href={'#'}><a className='items-center space-x-2 hover:text-themeColor hover:space-x-4 transition-all duration-500 flex '><BsChevronDoubleRight /><span>{label}</span></a></Link>
+                                <Link href={links[i]}><a className='items-center space-x-2 hover:text-themeColor hover:space-x-4 transition-all duration-500 flex '><BsChevronDoubleRight /><span>{label}</span></a></Link>
                             </li>
                         ))}
                     </ul>
