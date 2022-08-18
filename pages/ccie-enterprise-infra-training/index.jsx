@@ -7,6 +7,7 @@ import PlacementRecords from '../../components/Testimonials/PlacementRecords'
 import CustomerReviews from '../../components/Testimonials/CustomerReviews'
 import { RiStarSFill } from 'react-icons/ri'
 import Link from 'next/link'
+import Syllabus from '../../components/common/Syllabus'
 
 const descList = [
     'CCNA',
@@ -70,6 +71,9 @@ const index = () => {
                     </div>
                 </div>
             </div>
+            <div className="container py-12">
+                <Syllabus data={syllabusData} title='Course Syllabus' />
+            </div>
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
                     <div className="flex flex-col space-y-4">
@@ -92,5 +96,57 @@ const index = () => {
         </Layout>
     )
 }
+
+const syllabusData = [
+    {
+        title: 'Network Infrastructure',
+        children: [
+            `Switched Campus`,
+            `Routing Concepts`,
+            `EIGRP`,
+            `OSPF`,
+            `Border Gateway Protocol(BGP)`,
+            `Multicast`,
+        ]
+    },
+    {
+        title: 'Software Defined Infrastructure',
+        children: [
+            `Cisco SD-Access`,
+            `SD-WAN`,
+            `d: Assurance`,
+        ]
+    },
+    {
+        title: 'Transport Technologies and Solutions',
+        children: [
+            `MPLS`,
+            `DMVPN`,
+            `FlexVPN`,
+        ]
+    },
+    {
+        title: 'Infrastructure Security and Services',
+        children: [
+            `Device Security on Cisco IOS XE`,
+            `Network Security`,
+            `System Management`,
+            `Quality of Service`,
+            `Network Services`,
+            `Network Optimization`,
+            `Network Operations`,
+        ]
+    },
+    {
+        title: 'Infrastructure Automation and Programmability',
+        children: [
+            `Network Automation and Orchestration`,
+            `Data Encoding Formats`,
+            `Automation and Scripting`,
+            `Programmability`,
+        ]
+    },
+
+]
 
 export default index
