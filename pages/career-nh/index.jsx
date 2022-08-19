@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout from '../../components/Layout'
 import React from 'react'
 import Videos from '../../components/Pages/career/Videos'
+import JobsSection from '../../components/Pages/career/JobsSection'
 import Image from 'next/image'
 
 const index = () => {
@@ -52,11 +53,52 @@ const index = () => {
                             </p>
                         </div>
                     </div>
+                    <JobsSection data={data} />
                     <Videos />
                 </div>
             </Layout>
         </div>
     )
 }
+const data = [
+    {
+        title: 'CCNA Trainers',
+        vacancyType: 'Multiple vacancies',
+        location: 'Bangalore',
+        duration: 'Full-time',
+        jobType: 'Not Remote',
+        experience: '2 Years Experience',
+        isHot: true,
+        postedAt: 'Posted 2 Days ago',
+        text: 'Salary starting with 6.2 Lakhs to 10 Lakhs for experienced CCNA Trainers',
+        imageUrl: '/assets/images/people5.jpeg'
 
+    },
+    {
+        title: 'CCNA Trainers',
+        vacancyType: 'Multiple vacancies',
+        location: 'Bangalore',
+        duration: 'Full-time',
+        jobType: 'Not Remote',
+        experience: '2 Years Experience',
+        isHot: true,
+        postedAt: 'Posted 2 Days ago',
+        text: 'Salary starting with 6.2 Lakhs to 10 Lakhs for experienced CCNA Trainers',
+        imageUrl: '/assets/images/nh-group-1.webp'
+
+    },
+    {
+        title: 'CCNA Trainers',
+        vacancyType: 'Multiple vacancies',
+        location: 'Bangalore',
+        duration: 'Full-time',
+        jobType: 'Not Remote',
+        experience: '2 Years Experience',
+        isHot: true,
+        postedAt: 'Posted 2 Days ago',
+        text: 'Salary starting with 6.2 Lakhs to 10 Lakhs for experienced CCNA Trainers',
+        imageUrl: '/assets/images/people1.png'
+
+    },
+]
 export default index
