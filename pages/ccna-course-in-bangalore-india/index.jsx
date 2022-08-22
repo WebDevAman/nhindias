@@ -24,8 +24,8 @@ const index = () => {
     return (
         <Layout>
             <Head>
-                <title>CCNA Course | CCNA Training online | NetworkersHome</title>
-         <meta content="CCNA Course Training Online, Best CCNA Training with placement " name="description" />
+                <title>CCNA Course Details | Duration, Eligibility, Fee Structure, Career Options, Syllabus, and Salary</title>
+         <meta content=" Get CCNA Course Details like admission, eligibility. Know CCNA Certification Course Duration, scope, job options " name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
