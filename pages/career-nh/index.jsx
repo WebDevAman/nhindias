@@ -60,6 +60,8 @@ const index = () => {
         </div>
     )
 }
+
+
 const data = [
     {
         title: 'CCNA Trainers',

@@ -309,3 +309,4 @@ export const coursePageProgramsData = [
         img: '/assets/images/people4.jpeg'
     },
 ]
+
