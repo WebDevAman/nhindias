@@ -41,7 +41,7 @@ const index = () => {
                     <h1 className='text-xl font-semibold lg:text-2xl mb-4'>Cisco SDWAN - CCNP Module Course prerequiste</h1>
                     <div className="flex flex-col space-y-2">
                         <h1 className='text-base  lg:text-lg'>
-                            For CCNP Certification offered by Cisco, there are no prerequisites for both training and certification.
+                            For  Cisco SDWAN Certification offered by Cisco, there are no prerequisites for both training and certification.
                             Generally, if you are a fresher candidate then make it sure that you begin with R&S( Enterprise now) track after which you may move ahead in the career ladder with some other track.
                         </h1>
                         <li className='text-lg lg:text-xl flex-1  font-semibold'>
