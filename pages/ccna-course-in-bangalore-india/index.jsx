@@ -54,11 +54,11 @@ const index = () => {
                 </div>
 
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-xl lg:text-2xl font-extrabold mb-4'>CCNA Course prerequiste</h1>
+                    <h1 className='text-xl lg:text-2xl font-extrabold mb-4'>Benefits of CCNA certification</h1>
                     <div className="flex flex-col space-y-2">
                         <h1 className='text-base  lg:text-lg'>
-                            For CCNA Certification offered by Cisco, there are no prerequisites for both training and certification. <br />
-                            Generally, if you are a fresher candidate then make it sure that you begin with R&S( Enterprise now) track after which you may move ahead in career ladder with some other track.
+                            There are many benefits to obtaining a CCNA certification, including increased job security, opportunities for advancement, and higher salaries. <br />
+                            Perhaps the most important benefit of CCNA certification is the ability to demonstrate to employers that you have the skills and knowledge necessary to perform complex networking tasks. With the ever-increasing reliance on networked systems, organizations are looking for employees who can keep their networks running smoothly. A CCNA certification gives you the credibility you need to stand out from the crowd and show employers that you are qualified for the job.
                         </h1>
                         <li className='text-lg lg:text-xl flex-1  font-semibold'>
                             Comprehensive, end-to-end coverage of all aspects of CCNA IT certification
