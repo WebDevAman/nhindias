@@ -12,7 +12,8 @@ const index = () => {
     return (
         <Layout>
             <Head>
-                <title>All Courses | NetworkersHome</title>
+                <title>Best Networking IT Courses and training. Learn cloud, cyber security and Networking skills</title>
+        <meta content=" Best IT Certifications Training Online and recorded videos,Course fee,duration, syllabus and lab practice  " name="description" />
             </Head>
             <CoursesGrid courses={coursePageGridData} />
             <Testimonials courses={coursePageProgramsData} />
