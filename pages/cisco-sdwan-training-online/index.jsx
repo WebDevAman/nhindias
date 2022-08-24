@@ -33,7 +33,7 @@ const index = () => {
                             Cisco SDWAN Course description
                         </div>
                         <p className="text-base lg:text-lg">
-                            The Implementing Cisco SD-WAN Solutions (ENSDWI) v2.0 course trains you to design, deploy, configure, and manage your Cisco® Software-Defined WAN (SD-WAN) solution in a large-scale live network, including how to migrate from legacy WAN to SD-WAN. You will learn best practices for configuring routing protocols in the data center and the branch, as well as how to implement advanced control, data, and application-aware policies.
+                            The Cisco SDWAN Training course is designed to provide students with the skills and knowledge necessary to implement, configure, manage and troubleshoot Cisco SDWAN solutions. The course covers the basics of Cisco SDWAN architecture and components, as well as the key features and benefits of the technology. In addition, the course covers how to deploy Cisco SDWAN in both single-site and multi-site deployments, how to perform initial configuration and ongoing management tasks, and how to troubleshoot common problems.
                         </p>
                     </div>
                 </div>
