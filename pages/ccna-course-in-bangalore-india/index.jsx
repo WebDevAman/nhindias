@@ -42,7 +42,7 @@ const index = () => {
                             CCNA Course description
                         </div>
                         <p className="text-base lg:text-lg">
-                            CCNA Course provides students with the skills and knowledge to install, configure, maintain, operate and troubleshoot medium sized networks. Upon completing the course, you will receive a certificate of completion, ensuring you have the skills needed to become a CCNA and start your career in IT networking! We offer CCNA course in online and classroom format. Programs comes with lifetime video library access as well as free exam prep software. The market for IT professionals is booming, and the demand for Cisco Certified Networking Professionals is especially high.
+                            CCNA stands for Cisco Certified Network Associate. It is a certification that shows that the holder has the skills and knowledge to install, configure, operate, and troubleshoot medium-sized routed and switched networks. The CCNA certification is valid for three years.. Upon completing the course, you will receive a certificate of completion, ensuring you have the skills needed to become a CCNA and start your career in IT networking! We offer CCNA course in online and classroom format. Programs comes with lifetime video library access as well as free exam prep software. The market for IT professionals is booming, and the demand for Cisco Certified Networking Professionals is especially high.
                         </p>
                     </div>
                     <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>Topics Covered</h1>
