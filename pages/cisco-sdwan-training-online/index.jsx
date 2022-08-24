@@ -15,7 +15,7 @@ const index = () => {
     return (
         <Layout>
             <Head>
-                <title>SDWAN Training Online| Cisco Viptela </title>
+                <title>SDWAN Training Online| Cisco Viptela. SDWAN training in bangalore, india </title>
          <meta content="SDWAN Training Online and recorded videos,Course fee,duration, sdwan syllabus and lab practice  " name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-2 gap-10'>
