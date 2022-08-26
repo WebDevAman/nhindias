@@ -25,7 +25,7 @@ const index = () => {
         <Layout>
             <Head>
                 <title>CCNA Course Details | Training Duration, Eligibility, Fee Structure, Career Options, Syllabus, and Salary</title>
-         <meta content=" Get CCNA Course training from expert.  Know CCNA Certification Course Duration, scope, job options " name="description" />
+         <meta content=" Get CCNA Course training from expert.Know CCNA Certification Course Duration, scope, job options " name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
@@ -45,7 +45,7 @@ const index = () => {
                             CCNA Training by CCIE Expert. CCNA Course in available in both online and classroom mode.  The CCNA certification is valid for three years.. Upon completing the course, you will receive a certificate of completion, ensuring you have the skills needed to become a CCNA and start your career in IT networking! We offer CCNA course in online and classroom format. Programs comes with lifetime video library access as well as free exam prep software. The market for IT professionals is booming, and the demand for Cisco Certified Networking Professionals is especially high.
                         </p>
                     </div>
-                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>Topics Covered</h1>
+                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>CCNA Course Topics </h1>
                     <div className="flex flex-col space-y-1">
                         {descList.slice(0, 6).map(item => (
                             <li className='text-lg lg:text-xl flex-1  font-semibold' key={item}>{item}</li>
