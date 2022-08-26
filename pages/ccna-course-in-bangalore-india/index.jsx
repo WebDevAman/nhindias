@@ -24,8 +24,8 @@ const index = () => {
     return (
         <Layout>
             <Head>
-                <title>CCNA Course Details | Duration, Eligibility, Fee Structure, Career Options, Syllabus, and Salary</title>
-         <meta content=" Get CCNA Course Details like admission, eligibility. Know CCNA Certification Course Duration, scope, job options " name="description" />
+                <title>CCNA Course Details | Training Duration, Fee Structure, Career Options, Syllabus, and Salary</title>
+         <meta content=" Get CCNA Course training from experts.Know CCNA Certification Course Duration, scope, job options " name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
@@ -42,10 +42,10 @@ const index = () => {
                             CCNA Course description
                         </div>
                         <p className="text-base lg:text-lg">
-                            CCNA Course provides students with the skills and knowledge to install, configure, maintain, operate and troubleshoot medium sized networks. Upon completing the course, you will receive a certificate of completion, ensuring you have the skills needed to become a CCNA and start your career in IT networking! We offer CCNA course in online and classroom format. Programs comes with lifetime video library access as well as free exam prep software. The market for IT professionals is booming, and the demand for Cisco Certified Networking Professionals is especially high.
+                            CCNA Training by CCIE Expert. CCNA Course in available in both online and classroom mode.  The CCNA certification is valid for three years.. Upon completing the course, you will receive a certificate of completion, ensuring you have the skills needed to become a CCNA and start your career in IT networking! We offer CCNA course in online and classroom format. Programs comes with lifetime video library access as well as free exam prep software. The market for IT professionals is booming, and the demand for Cisco Certified Networking Professionals is especially high.
                         </p>
                     </div>
-                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>Topics Covered</h1>
+                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>CCNA Course Topics </h1>
                     <div className="flex flex-col space-y-1">
                         {descList.slice(0, 6).map(item => (
                             <li className='text-lg lg:text-xl flex-1  font-semibold' key={item}>{item}</li>
@@ -54,11 +54,11 @@ const index = () => {
                 </div>
 
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-xl lg:text-2xl font-extrabold mb-4'>CCNA Course prerequiste</h1>
+                    <h1 className='text-xl lg:text-2xl font-extrabold mb-4'>Benefits of CCNA certification</h1>
                     <div className="flex flex-col space-y-2">
                         <h1 className='text-base  lg:text-lg'>
-                            For CCNA Certification offered by Cisco, there are no prerequisites for both training and certification. <br />
-                            Generally, if you are a fresher candidate then make it sure that you begin with R&S( Enterprise now) track after which you may move ahead in career ladder with some other track.
+                            There are many benefits to obtaining a CCNA certification, including increased job security, opportunities for advancement, and higher salaries. <br />
+                            Perhaps the most important benefit of CCNA certification is the ability to demonstrate to employers that you have the skills and knowledge necessary to perform complex networking tasks. With the ever-increasing reliance on networked systems, organizations are looking for employees who can keep their networks running smoothly. A CCNA certification gives you the credibility you need to stand out from the crowd and show employers that you are qualified for the job.
                         </h1>
                         <li className='text-lg lg:text-xl flex-1  font-semibold'>
                             Comprehensive, end-to-end coverage of all aspects of CCNA IT certification

@@ -15,8 +15,8 @@ const index = () => {
     return (
         <Layout>
             <Head>
-                <title>Cisco SDWAN Training Online| NetworkersHome</title>
-         <meta content="Viptela SDWAN Training Online and recorded videos, Cisco SDWAN  " name="description" />
+                <title>SDWAN Training Online| Cisco Viptela. SDWAN training in bangalore, india </title>
+         <meta content="SDWAN Training Online and recorded videos,Course fee,duration, sdwan syllabus and lab practice  " name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-2 gap-10'>
                 <div className="w-full col-span-1  flex flex-col space-y-4">
@@ -33,7 +33,7 @@ const index = () => {
                             Cisco SDWAN Course description
                         </div>
                         <p className="text-base lg:text-lg">
-                            The Implementing Cisco SD-WAN Solutions (ENSDWI) v2.0 course trains you to design, deploy, configure, and manage your Cisco® Software-Defined WAN (SD-WAN) solution in a large-scale live network, including how to migrate from legacy WAN to SD-WAN. You will learn best practices for configuring routing protocols in the data center and the branch, as well as how to implement advanced control, data, and application-aware policies.
+                            The Cisco SDWAN Training course 30 hours training program and is designed to provide students with the skills and knowledge necessary to implement, configure, manage and troubleshoot Cisco SDWAN solutions. The course covers the basics of Cisco SDWAN architecture and components, as well as the key features and benefits of the technology. In addition, the course covers how to deploy Cisco SDWAN in both single-site and multi-site deployments, how to perform initial configuration and ongoing management tasks, and how to troubleshoot common problems.
                         </p>
                     </div>
                 </div>
@@ -41,17 +41,17 @@ const index = () => {
                     <h1 className='text-xl font-semibold lg:text-2xl mb-4'>Cisco SDWAN - CCNP Module Course prerequiste</h1>
                     <div className="flex flex-col space-y-2">
                         <h1 className='text-base  lg:text-lg'>
-                            For CCNP Certification offered by Cisco, there are no prerequisites for both training and certification.
+                            For  Cisco SDWAN Certification offered by Cisco, there are no prerequisites for both training and certification.
                             Generally, if you are a fresher candidate then make it sure that you begin with R&S( Enterprise now) track after which you may move ahead in the career ladder with some other track.
                         </h1>
                         <li className='text-lg lg:text-xl flex-1  font-semibold'>
                             Comprehensive, end-to-end coverage of all aspects of CCNP Enterprise IT certification
                         </li>
                         <li className='text-lg lg:text-xl flex-1  font-semibold'>
-                            The course is designed for anyone who wants to start working in IT or just wants a better knowledge about networks
+                           Unlimited SDWAN lab access for a month in a group
                         </li>
                         <li className='text-lg lg:text-xl flex-1  font-semibold'>
-                            We assure you best CCNP enterprise Training in Bangalore and all o
+                            Internet based Lab access to each student 
                         </li>
                     </div>
                 </div>
