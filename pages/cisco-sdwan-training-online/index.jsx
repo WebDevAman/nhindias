@@ -33,7 +33,7 @@ const index = () => {
                             Cisco SDWAN Course description
                         </div>
                         <p className="text-base lg:text-lg">
-                            The Cisco SDWAN Training course is designed to provide students with the skills and knowledge necessary to implement, configure, manage and troubleshoot Cisco SDWAN solutions. The course covers the basics of Cisco SDWAN architecture and components, as well as the key features and benefits of the technology. In addition, the course covers how to deploy Cisco SDWAN in both single-site and multi-site deployments, how to perform initial configuration and ongoing management tasks, and how to troubleshoot common problems.
+                            The Cisco SDWAN Training course 30 hours training program and is designed to provide students with the skills and knowledge necessary to implement, configure, manage and troubleshoot Cisco SDWAN solutions. The course covers the basics of Cisco SDWAN architecture and components, as well as the key features and benefits of the technology. In addition, the course covers how to deploy Cisco SDWAN in both single-site and multi-site deployments, how to perform initial configuration and ongoing management tasks, and how to troubleshoot common problems.
                         </p>
                     </div>
                 </div>
@@ -48,10 +48,10 @@ const index = () => {
                             Comprehensive, end-to-end coverage of all aspects of CCNP Enterprise IT certification
                         </li>
                         <li className='text-lg lg:text-xl flex-1  font-semibold'>
-                            The course is designed for anyone who wants to start working in IT or just wants a better knowledge about networks
+                           Unlimited SDWAN lab access for a month in a group
                         </li>
                         <li className='text-lg lg:text-xl flex-1  font-semibold'>
-                            We assure you best CCNP enterprise Training in Bangalore and all o
+                            Internet based Lab access to each student 
                         </li>
                     </div>
                 </div>
