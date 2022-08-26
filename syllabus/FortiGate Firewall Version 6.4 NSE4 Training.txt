@@ -1,0 +1,86 @@
+FortiGate Firewall Version 6.4 NSE4 Training
+
+Lecture-01:Common Network Security Terms.
+Lecture-02:Identify Malware(Malicious Software)
+Lecture-03:Introduction to Firewall Technologies.
+Lecture-04:Introduction About Fortinet FortiGate.
+Lecture-05:Install FortiGate Firewall On VMWare.
+Lecture-06:Install FortiGate Firewall in GNS3.
+Lecture-07:Install FortiGate Firewall in EVE-NG.
+Lecture-08:FortiGate Firewall Dashboard.
+Lecture-09:FortiGate Firewall Initial Working Lab.
+Lecture-10:FortiGate Firewall Interfaces and Zones.
+Lecture-11:Configure and Verify VLAN and Zone Lab.
+Lecture-12:Configure and Verify One-Armed Sniffer Lab.
+Lecture-13:Configure Redundant Interface in FortiGate.
+Lecture-14:Configure Aggregate Interface in FortiGate.
+Lecture-15:Configure Virtual Wire Pair in FortiGate.
+Lecture-16:Administrative Access in FortiGate Firewall.
+Lecture-17:Configure DNS & DNS Server In FortiGate.
+Lecture-18:Static,Default,Dynamic and Policy Route Theory.
+Lecture-19:Configure & Verify Static & Default Route Lab.
+Lecture-20:Configure and Verify Policy Routing Lab.
+Lecture-21:Configure and Verify Dynamic Protocol RIP.
+Lecture-22:Configure and Verify Dynamic Protocol OSPF.
+Lecture-23:Configure and Verify Routing Redistribution.
+Lecture-24:Configure and Verify Dynamic Protocol BGP.
+Lecture-25:FortiGate Firewall Policies Theory.
+Lecture-26:MAC Address Based Policy in FortiGate Firewall.
+Lecture-27:Local User Based Policy in FortiGate Firewall.
+Lecture-28:IP Address Based Policy in FortiGate Firewall.
+Lecture-29:Services and Schedule Based Policy in FortiGate.
+Lecture-30:FortiGate Firewall DHCP Server Theory.
+Lecture-31:FortiGate Firewall as DHCP Server Lab.
+Lecture-32:FortiGate Firewall as DHCP Relay Lab.
+Lecture-33:FortiGate Firewall License Activation.
+Lecture-34:FortiGate Firewall Security Profile & FortiGuard.
+Lecture-35:FortiGate Firewall Replacement Messages.
+Lecture-36:Security Profile Antivirus Profile.
+Lecture-37:Security Profile Web Filter Profile.
+Lecture-38:Security Profile DNS Filter.
+Lecture-39:Security Profile Application Control.
+Lecture-40:Security Profile Intrusion Prevention.
+Lecture-41:Security Profile File Filter.
+Lecture-42:FortiGate Firewall Inspection Mode.
+Lecture-43:FortiGate Firewall NGFW Modes.
+Lecture-44:Policy-Based Mode to Block Facebook App.
+Lecture-45:Policy-Based Mode for Default Services.
+Lecture-46:FortiGate Firewall Modes (Transparent).
+Lecture-47:Configure and Verify IPv4 DoS Policy.
+Lecture-48:Network Address Translation Theory.
+Lecture-49:Policy,Source,Interface Overload NAT Lab.
+Lecture-50:Policy,Source,Overload NAT Lab.
+Lecture-51:Policy,Source,One-To-One NAT Lab.
+Lecture-52:Policy,Source,Fixed Port Range NAT Lab.
+Lecture-53:Policy,Source, Port Block Allowcation NAT Lab.
+Lecture-54:Source NAT, Central Secure NAT (SNAT).
+Lecture-55:Destination NAT, Virtual IP in Security Policy.
+Lecture-56:Destination NAT, Virtual IP with Central SNAT.
+Lecture-57:Addresses Objects in FortiGate Firewall.
+Lecture-58:Services Objects in FortiGate Firewall.
+Lecture-59:High Availability (HA) Theory.
+Lecture-60:High Availability HA Active-Passive Lab.
+Lecture-61:High Availability HA Active-Active Lab.
+Lecture-62:FortiGate Authentication With AD & Lab Setup.
+Lecture-63:FortiGate Active Authentication(AD).
+Lecture-64:FortiGate Passive Authentication (AD).
+Lecture-65:Configure & Verify Virtual Domains (VDOMs).
+Lecture-66:Cryptography Symmetric & Asymmetric Encryption.
+Lecture-67:Introduction to Diffi-Hellman (DH) Group.
+Lecture-68:Introduction to Internet Protocol Security IPSec.
+Lecture-69:Introduction to Virtual Private Private Network.
+Lecture-70:Policy-Based and Route-Based VPNs Theory.
+Lecture-71:Site-to-Site IPSec Route-Based VPN Template Lab.
+Lecture-72:Site-to-Site IPsec Route-Based VPN Custom Lab.
+Lecture-73:Site-to-Site IPSec Policy-Based VPN Lab.
+Lecture-74:Backup & Restore, Revision & Firmware Upgrade.
+Lecture-75:Configure SNMP V1/V2 and SNMP V3 in FortiGate.
+Lecture-76:Configure Syslog in FortiGate Firewall.
+Lecture-77::Traffic Shaping Shared Shaper and Per IP Shaper.
+Lecture-78:Remote Access SSL VPN Web Portal Theory & Lab.
+Lecture-79:Remote Access IPSec VPN Theory and Lab.
+Lecture-80:FortiGate Firewall CLI Basic Commands.
+Lecture-81:Troubleshooting FortiGate Firewall.
+Lecture-82:Packet Sniffing in FortiGate Firewall.
+Lecture-83:Fundamental CLI Commands in FortiGate Firewall.
+Lecture-84:Configure and Verify Packet Capture in FortiGate.

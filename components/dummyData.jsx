@@ -211,7 +211,7 @@ export const coursePageGridData = [
     {
         heading: 'CEH',
         text: `Advanced level certifications for highly qualified Cisco engineers. Must be minimum CCNP certified before taking this course.`,
-        slug: '#'
+        slug: '/ceh-v-11-certification-training-course'
     },
     {
         heading: 'F5 LTM',
