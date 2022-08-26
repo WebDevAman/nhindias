@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { BiChevronsRight } from 'react-icons/bi'
 
 const Syllabus = (props) => {
-    const { data, title } = props
+    const { data, title, fullGrid } = props
     const [leftData, setLeftData] = useState([])
     const [rightData, setRightData] = useState([])
     useEffect(() => {
@@ -16,22 +16,38 @@ const Syllabus = (props) => {
     return (
         <div className="flex flex-col space-y-6">
             <h2 className="text-3xl text-themeDark font-bold">{title}</h2>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
-                <div className="flex flex-col space-y-6">
-                    {data && leftData && leftData.map((item, i) => (
-                        <div key={i}>
-                            <AccordionItem data={item} idx={i + i + 1} />
+            {fullGrid ?
+                (
+                    <div >
+                        <div className="flex flex-col space-y-6">
+                            {data && leftData && leftData.map((item, i) => (
+                                <div key={i}>
+                                    <AccordionItem data={item} idx={i + i + 1} />
+                                </div>
+                            ))}
                         </div>
-                    ))}
-                </div>
-                <div className="flex flex-col space-y-6">
-                    {data && rightData && rightData.map((item, i) => (
-                        <div key={i}>
-                            <AccordionItem data={item} idx={i + i + 2} />
+                    </div>
+                )
+                :
+                (
+                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
+                        <div className="flex flex-col space-y-6">
+                            {data && leftData && leftData.map((item, i) => (
+                                <div key={i}>
+                                    <AccordionItem data={item} idx={i + i + 1} />
+                                </div>
+                            ))}
                         </div>
-                    ))}
-                </div>
-            </div>
+                        <div className="flex flex-col space-y-6">
+                            {data && rightData && rightData.map((item, i) => (
+                                <div key={i}>
+                                    <AccordionItem data={item} idx={i + i + 2} />
+                                </div>
+                            ))}
+                        </div>
+                    </div >
+                )
+            }
         </div>
     )
 }

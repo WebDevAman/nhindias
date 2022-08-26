@@ -216,17 +216,18 @@ export const coursePageGridData = [
     {
         heading: 'F5 LTM',
         text: `Advanced level certifications for highly qualified Cisco engineers. Must be minimum CCNP certified before taking this course.`,
-        slug: '#'
+        slug: '/f5-ltm-v-13-training-course'
     },
     {
         heading: 'PALO ALTO',
         text: `Advanced level certifications for highly qualified Cisco engineers. Must be minimum CCNP certified before taking this course.`,
-        slug: '#'
+        slug: '/palo-alto-firewall-course'
+
     },
     {
         heading: 'Fortigate',
         text: `Advanced level certifications for highly qualified Cisco engineers. Must be minimum CCNP certified before taking this course.`,
-        slug: '#'
+        slug: '/fortigate-firewall-course'
     },
     {
         heading: 'AWS Assocaite',
