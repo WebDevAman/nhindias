@@ -232,7 +232,7 @@ export const coursePageGridData = [
     {
         heading: 'AWS Assocaite',
         text: `Advanced level certifications for highly qualified Cisco engineers. Must be minimum CCNP certified before taking this course.`,
-        slug: '#'
+        slug: '/aws-associate-training-course'
     },
     {
         heading: 'AWS Professional',
