@@ -56,7 +56,7 @@ const AccordionItem = ({ data, idx }) => {
     const [open, setOpen] = useState(true)
     return (
         <div className='flex flex-col space-y-3 p-6 transition-all duration-300 bg-blue-50 border-blue-500 border-2 rounded-lg hover:shadow-md '>
-            <div className="flex space-x-4 w-full justify-between">
+            <div className="flex zspace-x-4 w-full justify-between">
                 <h2 className='text-lg md:text-2xl font-bold max-w-[80%]'>{data.title}</h2>
                 <button onClick={() => setOpen(!open)} className={`${open ? 'rotate-45' : 'rotate-180'} flex items-center justify-center w-10 h-10 rounded-full border bg-white hover:text-white hover:bg-themeColor text-3xl font-extrabold cursor-pointer overflow-hidden transition-all duration-300`}><span className='mb-1'>+</span></button>
             </div>

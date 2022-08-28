@@ -57,7 +57,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>Course Features</h1>
+                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>Course Benefits</h1>
                     <div className="flex flex-col space-y-2">
                         <p className='text-base lg:text-lg'>
                             With an in-depth insight into the Ethical Hacking world, our <span className='font-bold'>CEH Ethical Hacker</span> v11 Training course aims to attain the following with the completion of the course:

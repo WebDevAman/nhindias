@@ -237,7 +237,7 @@ export const coursePageGridData = [
     {
         heading: 'AWS Professional',
         text: `Advanced level certifications for highly qualified Cisco engineers. Must be minimum CCNP certified before taking this course.`,
-        slug: '#'
+        slug: '/aws-professional-training-course'
     },
     {
         heading: 'AWS Security',

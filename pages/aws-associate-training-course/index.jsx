@@ -59,16 +59,14 @@ const index = () => {
                             With a detailed insight into the workings of essential AWS services, this course will help you pass the AWS Solutions Architect-Associate Exam. The lectures and demos are put together to deliver the content most effectively. The aim is to develop a good understanding of the tools and services offered by AWS and familiarize students with their practical use. Other aspects like interactive and captivating content will assist you in absorbing the concepts faster!
                         </p>
                         <p className="text-base lg:text-lg">
-
                             We offer Advanced Level Certifications for highly qualified Cisco Engineers, including AWS Associate Training. A CCNP Certification is required for enrollment in this course. Plus, it is highly recommended to have an initial concept of Cloud Computing and its features. The course contains in-depth insight into AWS key components like cloud formation. Furthermore, this course will highlight the techniques for keeping data leakages to an absolute minimum.
-
                         </p>
 
                     </div>
 
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>Course Features</h1>
+                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>Course Benefits</h1>
                     <div className="flex flex-col space-y-2">
                         <p className='text-base lg:text-lg'>
                             With an in-depth insight into the AWS Associate world, our AWS Associate Training course aims to attain the following with the completion of the course:
