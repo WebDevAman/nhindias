@@ -242,12 +242,12 @@ export const coursePageGridData = [
     {
         heading: 'AWS Security',
         text: `Advanced level certifications for highly qualified Cisco engineers. Must be minimum CCNP certified before taking this course.`,
-        slug: '#'
+        slug: '/aws-security-training-course'
     },
     {
         heading: 'AWS Advance Networking',
         text: `Advanced level certifications for highly qualified Cisco engineers. Must be minimum CCNP certified before taking this course.`,
-        slug: '#'
+        slug: '/aws-advance-networking-course'
     },
     {
         heading: 'CCIE Enterprise',
