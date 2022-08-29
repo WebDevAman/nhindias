@@ -10,23 +10,20 @@ import Link from 'next/link'
 
 
 const descList = [
-    'CCNA 200 - 301',
-    'CCNP Enterprise - Encore Module',
-    'CCNP Enarsi Module',
-    'CCNP SDWAN Module',
-    'CCNP Security - Cisco FTD',
-    'CCNP Security - Cisco WSA',
-    'CCNP Security - Cisco ESA',
-    'CCNP Security - Cisco IPS',
-    'CCNP Security - Cisco Umbrella',
-    'CCNP Security - Cisco VPN',
+    `CCNA`,
+    `CCNP`,
+    `Palo Alto Firewall`,
+    `CEH`,
+    `Checkpoint`,
+    `Fortigate`,
+    `12 Projects`,
 ]
 const index = () => {
     return (
         <Layout>
             <Head>
                 <title>CCIE Security V6 Training Online and classroom | NetworkersHome</title>
-         <meta content=" Besr CCIE Security V6 Training, Highest CCIE results in the world " name="description" />
+                <meta content=" Besr CCIE Security V6 Training, Highest CCIE results in the world " name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
@@ -43,7 +40,10 @@ const index = () => {
                             CCIE Security V6 Course description
                         </div>
                         <p className="text-base lg:text-lg">
-                            Our 6 Months CCIE Security Training program is an integrated Program is designed to train fresh graduates from Basics of networking to CCIE Level covering over 15 IT certifications . Over 200+ Top MNC partnerships for placement. All our placements are without any requirement for passing expensive examinations. These unique features not only save lakhs of rupees to our students, but it also has got us fame as Top placement company in India.
+                            We are pleased to announce our new Engineer starter package for students who are 12th pass or pursuing 12th class. This program is our only program for freshers students who are undergraduate. Program will offer minimum 2 Lakhs- 5.5 Lakhs package to successful students. Build your knowledge for networking certification through our well designed courses. Our course <span className='font-bold'>allows students to gain practical experience in their chosen career path before they even graduate.</span>
+                        </p>
+                        <p className="text-base lg:text-lg">
+                            With cutting edge technology training, we plan to transform candidates into employable network engineers.
                         </p>
                     </div>
 
@@ -55,30 +55,30 @@ const index = () => {
 
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>Course Features</h1>
+                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>Course Benefits</h1>
                     <div className="flex flex-col space-y-2">
                         <h1 className='text-base  lg:text-lg'>
-                            Candidate should have good English communication skills in order to seek placement although multiple placement sessions are organized . Minimum graduate candidates can apply for admission .We donot offer placement for undergraduates at this time.The Program is a 100% placement Program which means you will have access to unlimited placement opportunities every month to appear in multiple interviews with multiple companies. Our active placement partnership with over 200 companies has almost 5000 job opportunities open every year while our student intake is just 1000 so each year we are only able to provide 20% candidates to our client companies. NETWORKERS HOME is known as gateway to Top brand placements in Bangalore due to our 14 years existence and strong placement team.
+                            There are many benefits to getting IT certification training, including the potential for higher pay,
+                            increased job satisfaction, and improved career prospects. If {`you're`} thinking of pursuing an IT career,
+                            certification training can give you the skills and knowledge you need to succeed.
                         </h1>
+                        <div className='flex flex-col space-y-2'>
+                            <li className='text-base lg:text-lg'>
+                                Life time recorded videos.
+                            </li>
+                            <li className='text-base lg:text-lg'>
+                                2 Years access to placement updates for bigger and better opportunities.
 
+                            </li>
+                            <li className='text-base lg:text-lg'>
+                                Placement in Top IT Companies all over india
+
+                            </li>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="bg-themeColor py-12 lg:py-20">
-                <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
-                    <div className="flex flex-col space-y-4">
-                        <h1 className='text-2xl lg:text-4xl font-extrabold text-white'>Download Complete Syllabus</h1>
-                        <p className="text-white text-base lg:text-lg">
-                            Checkout full syllabus for relevant courses
-                        </p>
-                    </div>
-                    <Link href='/networkers-home-contact-us'>
-                        <a>
-                            <button className="bg-[#EED477] mt-4 md:mt-0 font-semibold py-3 px-6 border-2 border-white rounded-lg">Contact Us</button>
-                        </a>
-                    </Link>
-                </div>
-            </div>
+
             <PlacementRecords />
             <CustomerReviews />
             <ArticlesAndCourses />
