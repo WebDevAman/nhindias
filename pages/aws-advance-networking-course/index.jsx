@@ -83,6 +83,8 @@ const index = () => {
                         <p className='text-base lg:text-lg'>
                             Once the objectives mentioned above are achieved, you will have developed advanced networking skills. Whether designing advanced network frameworks or troubleshooting any errors, our <span className='font-bold'>AWS Advance Networking</span> course has covered it. So, what are you waiting for? Grab the opportunity and begin your journey to being a successful <span className='font-bold'>AWS Advance Networking</span> expert.
                         </p>
+
+
                     </div>
                 </div>
             </div>

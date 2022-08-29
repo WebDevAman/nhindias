@@ -116,9 +116,9 @@ export const courses = [
         desc: 'This program suitable for candidates who want to build career in Networking Industry. Learn MPLS,SDWAN and SDACCESS technologies',
     },
     {
-        link: '/ccie-security-training-course',
-        title: 'Blockchain Masters',
-        desc: 'Blockchain Masters program for building long-lasting career in Web3 technologies. Hands on lab with projects',
+        link: '/engineer-starter-program',
+        title: 'Engineer starter program',
+        desc: 'We are pleased to announce our new Engineer starter package for students who are 12th pass or pursuing 12th class',
     },
 ]
 
