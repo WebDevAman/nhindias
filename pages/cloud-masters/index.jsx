@@ -10,7 +10,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 const descList = [
-    'CCNA - 200 - 301',
+    'CCNA - CCNP Enterprise',
     'AWS Assocaite',
     'Palo Alto Firewall',
     'CEH',
