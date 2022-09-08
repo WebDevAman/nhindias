@@ -18,7 +18,7 @@ const index = () => {
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
-                    <h1 className='text-2xl lg:text-4xl font-extrabold'>AWS Professional Training Course</h1>
+                    <h1 className='text-2xl lg:text-4xl font-bold'>AWS Professional Training Course</h1>
                     <div className="flex flex-col space-y-2">
                         <div className="flex space-x-2">
                             {[1, 2, 3, 4, 5].map(num => (
@@ -47,7 +47,7 @@ const index = () => {
 
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>Course Benefits</h1>
+                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
                     <div className="flex flex-col space-y-2">
                         <p className='text-base lg:text-lg'>
                             In this course, you will study advanced AWS design features and AWS cross-account access. You will also learn various connectivity and integration techniques, including directory and data management, statistics, and other AWS core features. After finishing our <span className='font-bold'>AWS Professional Training</span> course, you will have the skills required to design and implement advanced AWS architectures and execute the following:

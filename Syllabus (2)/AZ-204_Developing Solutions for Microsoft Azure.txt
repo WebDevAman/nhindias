@@ -1,0 +1,14 @@
+ AZ-204: Developing Solutions for Microsoft Azure
+
+ Module 1: Create Azure App Service web apps
+ Module 2: Implement Azure functions
+ Module 3: Develop solutions that use Blob storage
+ Module 4: Develop solutions that use Azure Cosmos DB
+ Module 5: Implement infrastructure as a service solutions
+ Module 6: Implement user authentication and authorization
+ Module 7: Implement secure cloud solutions
+ Module 8: Implement API Management
+ Module 9: Develop event-based solutions
+ Module 10: Develop message-based solutions
+ Module 11: Instrument solutions to support monitoring and logging
+ Module 12: Integrate caching and content delivery within solutions

@@ -24,7 +24,7 @@ const index = () => {
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-2 gap-10'>
                 <div className="w-full col-span-1 flex flex-col space-y-4">
-                    <h1 className='text-2xl lg:text-4xl font-extrabold'>CCNP Enterprise infrastructure</h1>
+                    <h1 className='text-2xl lg:text-4xl font-bold'>CCNP Enterprise infrastructure</h1>
                     <div className="flex flex-col space-y-2">
                         <div className="flex space-x-2">
                             {[1, 2, 3, 4, 5].map(num => (
@@ -76,7 +76,7 @@ const index = () => {
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
                     <div className="flex flex-col space-y-4">
-                        <h1 className='text-2xl lg:text-4xl font-extrabold text-white'>Download Complete Syllabus</h1>
+                        <h1 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h1>
                         <p className="text-white text-base lg:text-lg">
                             Checkout full syllabus for relevant courses
                         </p>

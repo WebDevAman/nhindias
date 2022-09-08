@@ -1,0 +1,18 @@
+ Securing Networks with Cisco Firepower Next Generation Firewall
+
+ Module 1: Cisco Firepower Threat Defense Overview
+ Module 2: Cisco Firepower NGFW Device Configuration
+ Module 3: Cisco Firepower NGFW Traffic Control
+ Module 4: Cisco Firepower NGFW Address Translation
+ Module 5: Cisco Firepower Discovery
+ Module 6: Implementing Access Control Policies
+ Module 7: Security Intelligence
+ Module 8: File Control and Advanced Malware Protection
+ Module 9: Next-Generation Intrusion Prevention Systems
+ Module 10: Site-to-Site VPN
+ Module 11: Remote-Access VPN
+ Module 12: SSL Decryption
+ Module 13: Detailed Analysis Techniques
+ Module 14: System Administration
+ Module 15: Cisco Firepower Troubleshooting
+ Module 16: Lab outline

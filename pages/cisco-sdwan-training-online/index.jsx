@@ -16,11 +16,11 @@ const index = () => {
         <Layout>
             <Head>
                 <title>SDWAN Training Online| Cisco Viptela. SDWAN training in bangalore, india </title>
-         <meta content="SDWAN Training Online and recorded videos,Course fee,duration, sdwan syllabus and lab practice  " name="description" />
+                <meta content="SDWAN Training Online and recorded videos,Course fee,duration, sdwan syllabus and lab practice  " name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-2 gap-10'>
                 <div className="w-full col-span-1  flex flex-col space-y-4">
-                    <h1 className='text-2xl lg:text-4xl font-extrabold'>Cisco SDWAN Training</h1>
+                    <h1 className='text-2xl lg:text-4xl font-bold'>Cisco SDWAN Training</h1>
                     <div className="flex flex-col space-y-2">
                         <div className="flex space-x-2">
                             {[1, 2, 3, 4, 5].map(num => (
@@ -48,10 +48,10 @@ const index = () => {
                             Comprehensive, end-to-end coverage of all aspects of CCNP Enterprise IT certification
                         </li>
                         <li className='text-lg lg:text-xl flex-1  font-semibold'>
-                           Unlimited SDWAN lab access for a month in a group
+                            Unlimited SDWAN lab access for a month in a group
                         </li>
                         <li className='text-lg lg:text-xl flex-1  font-semibold'>
-                            Internet based Lab access to each student 
+                            Internet based Lab access to each student
                         </li>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ const index = () => {
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
                     <div className="flex flex-col space-y-4">
-                        <h1 className='text-2xl lg:text-4xl font-extrabold text-white'>Download Complete Syllabus</h1>
+                        <h1 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h1>
                         <p className="text-white text-base lg:text-lg">
                             Checkout full syllabus for relevant courses
                         </p>

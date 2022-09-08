@@ -25,11 +25,11 @@ const index = () => {
         <Layout>
             <Head>
                 <title>MultiCloud AWS,Azure and GCP certifications | NetworkersHome</title>
-         <meta content="Cloud computing AWS, Azure and GCP Training with placement" name="description" />
+                <meta content="Cloud computing AWS, Azure and GCP Training with placement" name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
-                    <h1 className='text-2xl lg:text-4xl font-extrabold'>MultiCloud + Cloud Security experts</h1>
+                    <h1 className='text-2xl lg:text-4xl font-bold'>MultiCloud + Cloud Security experts</h1>
                     <div className="flex flex-col space-y-2">
                         <div className="flex space-x-2">
                             {[1, 2, 3, 4, 5].map(num => (
@@ -48,18 +48,18 @@ const index = () => {
                     <div className="grid grid-cols items-start md:grid-cols-2">
                         <div className="flex flex-col space-y-1">
                             {descList.slice(0, Math.ceil(descList.length / 2)).map(item => (
-                                <li className='text-lg lg:text-xl flex-1  font-extrabold' key={item}>{item}</li>
+                                <li className='text-lg lg:text-xl flex-1  font-bold' key={item}>{item}</li>
                             ))}
                         </div>
                         <div className="flex flex-col  space-y-1">
                             {descList.slice(Math.ceil(descList.length / 2), descList.length).map(item => (
-                                <li className='text-lg lg:text-xl flex-1  font-extrabold' key={item}>{item}</li>
+                                <li className='text-lg lg:text-xl flex-1  font-bold' key={item}>{item}</li>
                             ))}
                         </div>
                     </div>
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>Course Features</h1>
+                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Features</h1>
                     <div className="flex flex-col space-y-2">
                         <li className='text-base lg:text-lg'>
                             The candidate should have good English communication skills in order to seek placement although multiple placement sessions are organized. Minimum graduate candidates can apply for admission. We {`don't`} offer placement for undergraduates at this time.
@@ -80,7 +80,7 @@ const index = () => {
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
                     <div className="flex flex-col space-y-4">
-                        <h1 className='text-2xl lg:text-4xl font-extrabold text-white'>Download Complete Syllabus</h1>
+                        <h1 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h1>
                         <p className="text-white text-base lg:text-lg">
                             Checkout full syllabus for relevant courses
                         </p>

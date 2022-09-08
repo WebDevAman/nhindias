@@ -9,10 +9,10 @@ const index = () => {
         <Layout>
             <Head>
                 <title>BEST IT CERTIFICATIONS LIST 2022 | NetworkersHome</title>
-         <meta content="Best CCIE Training institute in india " name="description" />
+                <meta content="Best CCIE Training institute in india " name="description" />
             </Head>
             <div className="flex my-12 container  flex-col space-y-12">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold uppercase text-center">BEST IT CERTIFICATIONS LIST 2022</h1>
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold uppercase text-center">BEST IT CERTIFICATIONS LIST 2022</h1>
                 <img src="/assets/images/people4.jpeg" alt="" className="w-full h-full max-h-[40rem] object-cover" />
 
             </div>
@@ -20,7 +20,7 @@ const index = () => {
                 <div className="flex container flex-col space-y-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start lg:items-center">
                         <p className='text-xl font-semibold lg:text-2xl'>Students have been searching all over internet about best online courses for cloud,Networking, programming and other most demanded courses in 2022. Here we have compiled list of best courses for career in different technologies.</p>
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold">Best CLOUD Certifications</h1>
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Best CLOUD Certifications</h1>
                     </div>
                     <div className="grid grid-cols-1 gap-10 items-center lg:grid-cols-2">
                         <div className="text-lg md:text-xl flex flex-col space-y-1">
@@ -56,7 +56,7 @@ const index = () => {
                 <div className="grid items-center grid-cols-1 gap-8 lg:grid-cols-2">
                     <img src="/assets/images/tut1.jpeg" alt="" className="w-full h-full" />
                     <div className="flex flex-col space-y-4">
-                        <h1 className='text-2xl lg:text-4xl font-extrabold'>Top Programming courses</h1>
+                        <h1 className='text-2xl lg:text-4xl font-bold'>Top Programming courses</h1>
                         <p className='text-lg md:text-xl'>
                             If you are like coding and programming then top programming courses 2022 are the courses that will be most in demand. The demand for programmers has been growing exponentially in recent years, and is projected to continue this trend.Some of the top programming courses 2022 are:-
                         </p>
@@ -69,7 +69,7 @@ const index = () => {
                     </div>
                 </div>
                 <div className="flex flex-col space-y-4">
-                    <h1 className='text-2xl lg:text-4xl font-extrabold'>Best Cyber security course list 2022</h1>
+                    <h1 className='text-2xl lg:text-4xl font-bold'>Best Cyber security course list 2022</h1>
                     <p className='text-lg md:text-xl'>
                         Cybersecurity is an ever-evolving field. With the rapid advancement in technology, it is important to keep up with the latest trends and developments. This article provides a list of best cyber security courses 2022.The course list includes best cyber security courses for beginners, intermediate learners, and advanced learners.
                     </p>

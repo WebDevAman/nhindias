@@ -265,9 +265,39 @@ export const coursePageGridData = [
         slug: '/ccna-ccnp-training-online-combo'
     },
     {
-        heading: 'Blockchain',
-        text: `Advanced level certifications for highly qualified Cisco engineers. Must be minimum CCNP certified before taking this course.`,
-        slug: '#'
+        heading: 'Engineer starter Program',
+        text: `We are pleased to announce our new Engineer starter package for students who are 12th pass or pursuing 12th class`,
+        slug: '/engineer-starter-program'
+    },
+    {
+        heading: '300-715 Cisco SISE Certification Training Course',
+        text: `The Implementing and Configuring Cisco Identity Services Engine (SISE) v3.0 course demonstrates how to use and position the Cisco ISE (Identity Services Engine).  `,
+        slug: '/cisco-sise-training'
+    },
+    {
+        heading: 'Administering Cisco Umbrella Operations v2.0 Certification Training Course',
+        text: `Cisco is one of the world's most prominent software and networking enterprises, specializing in networking, cloud, and security solutions.`,
+        slug: '/administering-cisco-umbrella-operations-certification-training-course'
+    },
+    {
+        heading: 'AZ-104: Microsoft Azure Administrator Certification Training Course',
+        text: `One of the fastest-growing business cloud platforms, Microsoft Azure, enables professionals to deploy more secure cloud environments.`,
+        slug: '/microsoft-azure-administrator-certification-training'
+    },
+    {
+        heading: 'AZ-500: Microsoft Azure Security Technologies Certification Training Course',
+        text: `Everyone is migrating to the cloud, regardless of their organization type. Asset security is crucial for a business to ensure data integrity, given the rise in cybersecurity assaults and breaches worldwide`,
+        slug: '/microsoft-azure-security-technologies-training'
+    },
+    {
+        heading: 'Cisco ACI Troubleshooting Training (ACITS) Course',
+        text: `Cisco has retained its position as the world’s leading software-based solution provider, delivering modern cloud-based networking and security solutions`,
+        slug: '/cisco-aci-troubleshooting-training'
+    },
+    {
+        heading: 'CCNP Cisco Enterprise ENCOR 350-401 Certification Training Course',
+        text: `Cisco is constantly growing as a leading cloud-oriented network and security solutions provider.`,
+        slug: '/ccnp-cisco-encor-training'
     },
 ]
 

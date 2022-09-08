@@ -27,7 +27,7 @@ const index = () => {
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
-                    <h1 className='text-2xl lg:text-4xl font-extrabold'>CCIE Security V6 Training</h1>
+                    <h1 className='text-2xl lg:text-4xl font-bold'>CCIE Security V6 Training</h1>
                     <div className="flex flex-col space-y-2">
                         <div className="flex space-x-2">
                             {[1, 2, 3, 4, 5].map(num => (
@@ -49,13 +49,13 @@ const index = () => {
 
                     <div className="flex flex-col space-y-1">
                         {descList.map(item => (
-                            <li className='text-lg lg:text-xl flex-1  font-extrabold' key={item}>{item}</li>
+                            <li className='text-lg lg:text-xl flex-1  font-bold' key={item}>{item}</li>
                         ))}
                     </div>
 
                 </div>
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>Course Benefits</h1>
+                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>Course Benefits</h1>
                     <div className="flex flex-col space-y-2">
                         <h1 className='text-base  lg:text-lg'>
                             There are many benefits to getting IT certification training, including the potential for higher pay,

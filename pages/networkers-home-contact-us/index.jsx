@@ -11,11 +11,11 @@ const Index = () => {
         <Layout>
             <Head>
                 <title>Contact Us | NetworkersHome</title>
-         <meta content="NETWORKERS HOME contact information " name="description" />
+                <meta content="NETWORKERS HOME contact information " name="description" />
             </Head>
             <div className="flex container flex-col space-y-6 mt-6 lg:space-y-12">
                 <div className="flex flex-col space-y-6">
-                    <h1 className='text-3xl lg:text-5xl pb-2 font-extrabold'>Contact us</h1>
+                    <h1 className='text-3xl lg:text-5xl pb-2 font-bold'>Contact us</h1>
                     <p className="text-lg lg:text-xl">
                         Head Office: L-149, Sector 6, HSR Layout, Bangalore-560102
                     </p>

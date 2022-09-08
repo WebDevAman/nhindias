@@ -25,11 +25,11 @@ const index = () => {
         <Layout>
             <Head>
                 <title>CCNA Course Details | Training Duration, Fee Structure, Career Options, Syllabus, and Salary</title>
-         <meta content=" Get CCNA Course training from experts.Know CCNA Certification Course Duration, scope, job options " name="description" />
+                <meta content=" Get CCNA Course training from experts.Know CCNA Certification Course Duration, scope, job options " name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
-                    <h1 className='text-2xl lg:text-4xl font-extrabold'>CCNA Course 200-301</h1>
+                    <h1 className='text-2xl lg:text-4xl font-bold'>CCNA Course 200-301</h1>
                     <div className="flex flex-col space-y-2">
                         <div className="flex space-x-2">
                             {[1, 2, 3, 4, 5].map(num => (
@@ -45,7 +45,7 @@ const index = () => {
                             CCNA Training by CCIE Expert. CCNA Course in available in both online and classroom mode.  The CCNA certification is valid for three years.. Upon completing the course, you will receive a certificate of completion, ensuring you have the skills needed to become a CCNA and start your career in IT networking! We offer CCNA course in online and classroom format. Programs comes with lifetime video library access as well as free exam prep software. The market for IT professionals is booming, and the demand for Cisco Certified Networking Professionals is especially high.
                         </p>
                     </div>
-                    <h1 className='text-2xl lg:text-4xl font-extrabold mb-4'>CCNA Course Topics </h1>
+                    <h1 className='text-2xl lg:text-4xl font-bold mb-4'>CCNA Course Topics </h1>
                     <div className="flex flex-col space-y-1">
                         {descList.slice(0, 6).map(item => (
                             <li className='text-lg lg:text-xl flex-1  font-semibold' key={item}>{item}</li>
@@ -54,7 +54,7 @@ const index = () => {
                 </div>
 
                 <div className="col-span-1  flex flex-col">
-                    <h1 className='text-xl lg:text-2xl font-extrabold mb-4'>Benefits of CCNA certification</h1>
+                    <h1 className='text-xl lg:text-2xl font-bold mb-4'>Benefits of CCNA certification</h1>
                     <div className="flex flex-col space-y-2">
                         <h1 className='text-base  lg:text-lg'>
                             There are many benefits to obtaining a CCNA certification, including increased job security, opportunities for advancement, and higher salaries. <br />
@@ -84,7 +84,7 @@ const index = () => {
             <div className="bg-themeColor py-12 lg:py-20">
                 <div className="container flex flex-col md:flex-row text-center md:text-left  items-center justify-between">
                     <div className="flex flex-col space-y-4">
-                        <h1 className='text-2xl lg:text-4xl font-extrabold text-white'>Download Complete Syllabus</h1>
+                        <h1 className='text-2xl lg:text-4xl font-bold text-white'>Download Complete Syllabus</h1>
                         <p className="text-white text-base lg:text-lg">
                             Checkout full syllabus for relevant courses
                         </p>

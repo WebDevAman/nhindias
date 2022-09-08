@@ -1,0 +1,26 @@
+ Python Programming for Cisco Network Engineers (PCNE)
+
+ Module 1: Introduction
+ Module 2: Fundamental Python programming
+ Module 3: Python data structure
+ Module 4: Using Python to read from and write to a file
+ Module 5: Python loops and conditional code
+ Module 6: GitHub
+ Module 7: Programming Python Functions
+ Module 8: Python Libraries, Packages, and Modules
+ Module 9: Integrated Development Environments
+ Module 10: Python code analysis and error handling
+ Module 11: Cisco-supported APIs and automation protocols
+ Module 12: Cisco IOS XE RESTCONF API
+ Module 13: Cisco IOS XE NETCONF API
+ Module 14: Cisco ASA REST API
+ Module 15: Cisco Nexus NX-OS APIs
+ Module 16: YANG data model
+ Module 17: Cisco Application Centric Infrastructure
+ Module 18: Cisco ACI whitelists
+ Module 19: Extracting XML and JSON from the Cisco ACI
+ Module 20: Modifying the ACI policy with Postman and Python
+ Module 21: The Cisco ACI Visore tool
+ Module 22: Cisco UCS topology
+ Module 23: Configuring UCS with Python
+ Module24: Labs

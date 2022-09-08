@@ -8,7 +8,7 @@ const CoursesGrid = ({ courses }) => {
             <div className='container'>
                 <div className='flex py-6 w-full items-center pb-2 container flex-col md:flex-row justify-between gap-7'>
                     <div className='flex  flex-col max-w-[35rem]'>
-                        <h1 className='font-extrabold font-lato text-center md:text-left text-3xl md:text-4xl lg:text-5xl'>43 IT Certifications to choose from</h1>
+                        <h1 className='font-bold font-lato text-center md:text-left text-3xl md:text-4xl lg:text-5xl'>43 IT Certifications to choose from</h1>
                     </div>
                     <Link href='/networkers-home-contact-us'>
                         <a className='mx-auto md:mx-0'>
