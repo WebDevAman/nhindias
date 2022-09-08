@@ -24,13 +24,8 @@ const index = () => {
     return (
         <Layout>
             <Head>
-<<<<<<< HEAD
-                <title>CCNA Course Details | Training Duration, Fee Structure, Career Options, Syllabus, and Salary</title>
-                <meta content=" Get CCNA Course training from experts.Know CCNA Certification Course Duration, scope, job options " name="description" />
-=======
                 <title>CCNA Course Details | Training Duration, Online, Fee Structure, Career Options, Syllabus, and Salary in Bangalore india</title>
-         <meta content=" Best CCNA Course training in Bangalore. Know CCNA Certification Course Duration, scope, job options " name="description" />
->>>>>>> 321a57168f46ef32886cdf12907e98d50354ffe2
+                <meta content=" Best CCNA Course training in Bangalore. Know CCNA Certification Course Duration, scope, job options " name="description" />
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
