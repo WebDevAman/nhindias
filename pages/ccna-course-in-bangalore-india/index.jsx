@@ -24,8 +24,13 @@ const index = () => {
     return (
         <Layout>
             <Head>
+<<<<<<< HEAD
                 <title>CCNA Course Details | Training Duration, Fee Structure, Career Options, Syllabus, and Salary</title>
                 <meta content=" Get CCNA Course training from experts.Know CCNA Certification Course Duration, scope, job options " name="description" />
+=======
+                <title>CCNA Course Details | Training Duration, Online, Fee Structure, Career Options, Syllabus, and Salary in Bangalore india</title>
+         <meta content=" Best CCNA Course training in Bangalore. Know CCNA Certification Course Duration, scope, job options " name="description" />
+>>>>>>> 321a57168f46ef32886cdf12907e98d50354ffe2
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
@@ -42,7 +47,7 @@ const index = () => {
                             CCNA Course description
                         </div>
                         <p className="text-base lg:text-lg">
-                            CCNA Training by CCIE Expert. CCNA Course in available in both online and classroom mode.  The CCNA certification is valid for three years.. Upon completing the course, you will receive a certificate of completion, ensuring you have the skills needed to become a CCNA and start your career in IT networking! We offer CCNA course in online and classroom format. Programs comes with lifetime video library access as well as free exam prep software. The market for IT professionals is booming, and the demand for Cisco Certified Networking Professionals is especially high.
+                            CCNA 200-301 Training in both online and classroom mode.  The CCNA certification is valid for three years.. Upon completing the course, you will receive a certificate of completion, ensuring you have the skills needed to become a CCNA and start your career in IT networking! We offer CCNA course in online and classroom format. Programs comes with lifetime video library access as well as free exam prep software. The market for IT professionals is booming, and the demand for Cisco Certified Networking Professionals is especially high.
                         </p>
                     </div>
                     <h1 className='text-2xl lg:text-4xl font-bold mb-4'>CCNA Course Topics </h1>
