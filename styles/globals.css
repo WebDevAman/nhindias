@@ -192,3 +192,7 @@ input[type=number]::-webkit-outer-spin-button {
 .MuiAccordionDetails-root {
   padding: 4px 0 !important;
 }
+
+html {
+  word-spacing: 2px;
+}

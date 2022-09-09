@@ -299,6 +299,31 @@ export const coursePageGridData = [
         text: `Cisco is constantly growing as a leading cloud-oriented network and security solutions provider.`,
         slug: '/ccnp-cisco-encor-training'
     },
+    {
+        heading: 'AZ-204 Developing Solutions for Microsoft Azure Training Course',
+        text: `There is a rising need for Microsoft Azure Certified specialists as firms undergo digital transformations and transfer their operations to the cloud.`,
+        slug: '/developing-solutions-for-microsoft-azure-training'
+    },
+    {
+        heading: 'Implementing Cisco Enterprise Advanced Routing and Services (ENARSI) Course',
+        text: `Technological advancements have made it feasible to maintain accuracy and regularly monitor a global corporate environment standard.`,
+        slug: '/cisco-enarsi-training'
+    },
+    {
+        heading: 'Implementing and Operating Cisco Security Core Technologies (SCOR) Course',
+        text: `Register for Implementing and Operating Cisco Security Core Technologies (SCOR) course on Networkers Home.`,
+        slug: '/cisco-scor-ccnp-security-training'
+    },
+    {
+        heading: 'Python Programming for Cisco Network Engineers (PCNE) Course',
+        text: `You might wonder why you need to learn Python as a network engineer or someone with a similar background.`,
+        slug: '/python-programming-for-cisco-network-engineers-course'
+    },
+    {
+        heading: 'Securing Networks with Cisco Firepower Next Generation Firewall (SSNGFW) v1.0 Training Course',
+        text: `Technology plays a significant role in today's corporate environment, enabling success and maintaining a competitive advantage.`,
+        slug: '/cisco-next-generation-firewalls-ngfw-training'
+    },
 ]
 
 export const coursePageProgramsData = [
