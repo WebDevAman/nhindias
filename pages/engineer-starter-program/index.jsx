@@ -27,11 +27,7 @@ const index = () => {
             </Head>
             <div className='container my-12 grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <div className="w-full col-span-1 lg:col-span-2 flex flex-col space-y-4">
-<<<<<<< HEAD
-                    <h1 className='text-2xl lg:text-4xl font-bold'>CCIE Security V6 Training</h1>
-=======
                     <h1 className='text-2xl lg:text-4xl font-extrabold'>Engineer starter program</h1>
->>>>>>> 321a57168f46ef32886cdf12907e98d50354ffe2
                     <div className="flex flex-col space-y-2">
                         <div className="flex space-x-2">
                             {[1, 2, 3, 4, 5].map(num => (
