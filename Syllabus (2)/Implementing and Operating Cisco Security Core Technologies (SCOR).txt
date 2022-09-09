@@ -1,8 +1,0 @@
- Implementing and Operating Cisco Security Core Technologies (SCOR)
-
- Module 1 Security Concepts
- Module 2 Network Security
- Module 3 Securing the Cloud
- Module 4 Content Security
- Module 5 Endpoint Protection and Detection
- Module 6 Secure Network Access, Visibility, and Enforcement

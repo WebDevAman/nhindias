@@ -1,6 +1,0 @@
- AZ-500: Microsoft Azure Security Technologies
-
- Module 1: Identity and Access
- Module 2: Platform Protection
- Module 3: Security Operations
- Module 4: Data and applications
