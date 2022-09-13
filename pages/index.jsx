@@ -27,7 +27,7 @@ export default function Home() {
         <meta property={"og:title"}
           content={"Best CCIE, Cyber security and Cloud Training online and classroom. Learn CCNA,CCNP, CEH and AWS from experts"} />
         <meta name="twitter:site" content="https://www.networkershome.come" />
-        <meta property={"og:image"} content={"https://www.networkershome.com/assets/images/people5.jpeg"} />
+        <meta property={"og:image"} content={"https://www.networkershome.com/assets/images/logo.png"} />
         <meta property={"og:site_name"} content={"Networkers Home"} />
         <meta property={"og:url"} content={"https://www.networkershome.come"} />
         <meta property={"twitter:card"} content={"summary"} />
